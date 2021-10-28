@@ -1,0 +1,10 @@
+.forget-password-modal {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 1rem;
+}
+.forget-password-modal button {
+  width: 40%;
+  margin: 0 auto;
+}

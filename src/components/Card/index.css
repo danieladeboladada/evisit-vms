@@ -1,0 +1,16 @@
+.member-card {
+  color: black;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+  padding: 0.5rem 1.2rem;
+}
+
+.member-card img {
+  display: flex;
+  justify-content: center;
+  margin: 1rem auto;
+}
+.member-card div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+}

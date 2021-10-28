@@ -1,0 +1,7 @@
+select {
+  border: 1px solid #393939;
+  border-radius: 7px;
+  background: #ffffff;
+  padding: 0.7rem 1rem;
+  width: 100%;
+}

@@ -1,0 +1,95 @@
+.dashboard {
+  display: flex;
+  height: 100vh;
+  color: white;
+  width: 100vw;
+}
+.dashboard-navigation {
+  background-color: black;
+  padding: 3rem 0;
+  width: 17vw;
+}
+.dashboard-navigation .logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dashboard-navigation .logo p {
+  font-weight: 500;
+  font-size: 38px;
+  margin: 0;
+}
+.dashboard-navigation nav {
+  list-style: none;
+  margin-top: 1rem;
+  width: 100%;
+}
+.dashboard-navigation li {
+  font-size: 20px;
+  margin: 2.5rem 0;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-weight: 500;
+  padding-left: 1.5rem;
+  position: relative;
+  /* width: 100%; */
+}
+.dashboard-navigation li:hover::before {
+  content: "";
+  background: linear-gradient(135deg, #ce9ffc 0%, #7367f0 100%);
+  display: block;
+  width: 8px;
+  height: 100%;
+  left: -0.5rem;
+  border-radius: 10px;
+  position: absolute;
+  margin: 10px;
+  transition: all 1 ease-in-out linear;
+}
+.dashboard-body {
+  width: 83vw;
+}
+.dashboard-body section {
+  padding: 2rem;
+  overflow-y: scroll;
+  height: 100%;
+}
+.dashboard-header {
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+  height: 10vh;
+  /* width: 100%; */
+  display: flex;
+  align-items: center;
+  color: #282828;
+  justify-content: space-between;
+  padding: 0 2rem;
+}
+.dashboard-header div {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 20px;
+}
+.dashboard-header div p {
+  margin: 0;
+}
+.dashboard-header div p {
+  color: linear-gradient(135deg, #ce9ffc 0%, #7367f0 100%);
+}
+.dashboard-header .input-container {
+  position: relative;
+}
+.search-icon {
+  position: absolute;
+  left: 1rem;
+  top: 35%;
+}
+.dashboard-header input {
+  background: #ffffff;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  border: none;
+  padding: 0.8rem 2.5rem;
+  width: 557px;
+}

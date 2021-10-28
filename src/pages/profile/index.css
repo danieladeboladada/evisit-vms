@@ -1,0 +1,7 @@
+.dashboard-input-container .inputs {
+  display: flex;
+  gap: 1rem;
+}
+.dashboard-input-container .inputs > * {
+  width: 47%;
+}

@@ -1,0 +1,16 @@
+.number-card-container {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1rem;
+}
+.charts-container {
+  display: flex;
+  gap: 1rem;
+}
+.pie-total {
+  color: #7879f1;
+  position: absolute;
+  top: 42%;
+  right: 30%;
+  font-size: 30px;
+}

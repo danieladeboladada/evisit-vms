@@ -1,0 +1,35 @@
+.history-table,
+.history-table th,
+.history-table td {
+  border-collapse: collapse !important;
+  /* background-color: white !important; */
+  border: none !important;
+  border-radius: 10px;
+}
+.history-table th,
+.history-table td {
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25) !important;
+}
+.history-section table {
+  border: none !important;
+  border-spacing: 30px;
+}
+.history-table tr {
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25) !important;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+.details div {
+  display: flex;
+  color: black;
+  gap: 2rem;
+  font-size: 24px;
+  font-weight: 300;
+}
+.details div > * {
+  width: 20%;
+  margin-bottom: 2rem;
+}
+.details .light {
+  font-weight: 200;
+}
